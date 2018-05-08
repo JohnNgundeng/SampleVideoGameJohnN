@@ -42,17 +42,17 @@ local instructionsButton
 
 -- Creating Transition Function to Credits Page
 local function CreditsTransition( )       
-    composer.gotoScene( "credits_screen", {effect = "flipFadeOutIn", time = 500})
+    composer.gotoScene( "credits_screen", {effect = "fromRight", time = 500})
 end 
 -----------------------------------------------------------------------------------------
 local function InstructionsTransition( )       
-    composer.gotoScene( "instructions_screen", {effect = "flipFadeOutIn", time = 500})
+    composer.gotoScene( "instructions_screen", {effect = "fromLeft", time = 500})
 end 
 -----------------------------------------------------------------------------------------
 
 -- Creating Transition to Level1 Screen
 local function Level1ScreenTransition( )
-    composer.gotoScene( "level1_screen", {effect = "zoomInOutFade", time = 1000})
+    composer.gotoScene( "level1_screen", {effect = "fromBottom", time = 1000})
 end    
 
 -----------------------------------------------------------------------------------------
